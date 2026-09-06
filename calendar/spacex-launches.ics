@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT2H
 X-PUBLISHED-TTL:PT2H
 BEGIN:VEVENT
 UID:153ef8ef-b12b-43f4-a4bf-05b225c0cd37@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Starlink Group 15-24
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：Go for Launch\n时间精度：Second\n任务：A bat
@@ -33,8 +33,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e0456da-14b1-4ac3-b59e-35fefb1d1530@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜USSF-153
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：Go for Launch\n时间精度：Minute\n任务：USSF-
@@ -58,8 +58,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ad358a4d-c541-409b-9366-9c2f2da4aeb9@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜O3b mPower 11-13（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Confirmed\n时间精度：Minute\n任务：3 h
@@ -80,9 +80,31 @@ DESCRIPTION:O3b mPower 11-13 将在约 1 天后发射
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:7d1afb26-6f9c-429b-9ccf-29012fd1e519@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Flight 14（暂定）
+LOCATION:Orbital Launch Pad 2 / SpaceX Starbase\, TX\, USA
+DESCRIPTION:运载器：Starship V3\n状态：To Be Determined\n时间精度：Month\n任务：14th tes
+ t flight of the two-stage Starship launch vehicle. 3rd flight of Starshi
+ p V3.\n发射窗口（UTC）：2026-09-30T00:00:00Z – 2026-09-30T00:00:00Z\n数据源：Launch
+  Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch
+ /7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-2901
+ 2fd1e519/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Flight 14 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SDA Tranche 1 Transport Layer A（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Tra
@@ -113,8 +135,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:18441371-8b2e-457c-afb5-1ec1b11ab630@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Crew-13（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Spa
@@ -135,31 +157,9 @@ DESCRIPTION:Crew-13 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7d1afb26-6f9c-429b-9ccf-29012fd1e519@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Flight 14（暂定）
-LOCATION:Orbital Launch Pad 2 / SpaceX Starbase\, TX\, USA
-DESCRIPTION:运载器：Starship V3\n状态：To Be Determined\n时间精度：Month\n任务：14th tes
- t flight of the two-stage Starship launch vehicle. 3rd flight of Starshi
- p V3.\n发射窗口（UTC）：2026-09-30T00:00:00Z – 2026-09-30T00:00:00Z\n数据源：Launch
-  Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch
- /7d1afb26-6f9c-429b-9ccf-29012fd1e519/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/7d1afb26-6f9c-429b-9ccf-2901
- 2fd1e519/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Flight 14 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:67213393-7983-4c06-8b44-b8c785a5ed79@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Transporter 18 (Dedicated SSO Rideshare)（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Ded
@@ -181,8 +181,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bf2c3027-a314-403e-a416-2bfd5d165ad1@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Dragon CRS-2 SpX-35（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：35t
@@ -207,8 +207,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3b430f81-0ff1-4d85-8a1a-cef0de326198@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Bandwagon 5 (Dedicated Mid-Inclination Rideshare)（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Ded
@@ -230,8 +230,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d3bd7fb2-fac6-49fc-ae52-cee07d2fde67@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Griffin Mission One（暂定）
 LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
 DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Month\n任务：Demonst
@@ -254,101 +254,9 @@ DESCRIPTION:Griffin Mission One 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fa895702-687b-4ba3-95fb-9462a2c9844b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 5（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
- atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
- 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/fa895702-687b-4ba3-95fb-9462a2
- c9844b/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/fa895702-687b-4ba3-95fb-9462
- a2c9844b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rivada 5 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 1 Tracking Layer E（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Tranche 1 Tracking Layer E is one of five missions by the United States
-  Space Force Space Development Agency (SDA) for the Proliferated Warfigh
- ter Space Architecture (PWSA) Tranche 1 Tracking Layer constellation\, w
- hich will provide global indications\, warning\, tracking\, and targetin
- g of advanced missile threats\, including hypersonic missile systems.\n发
- 射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library
-  2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/fcbc455
- 0-e69e-4458-a9e6-4a5b6b6b15a5/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/fcbc4550-e69e-4458-a9e6-4a5b
- 6b6b15a5/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 1 Tracking Layer E 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:20fa8dc4-8cab-41cf-b452-98a2620f7e86@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 2（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
- atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
- 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/20fa8dc4-8cab-41cf-b452-98a262
- 0f7e86/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/20fa8dc4-8cab-41cf-b452-98a2
- 620f7e86/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rivada 2 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c1bd775a-2fff-45bb-9726-765b69817c19@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-75（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Year\n任务：Classifi
- ed payload for the United States Space Force\n发射窗口（UTC）：2026-12-31T00:00
- :00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：h
- ttps://ll.thespacedevs.com/2.2.0/launch/c1bd775a-2fff-45bb-9726-765b6981
- 7c19/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/c1bd775a-2fff-45bb-9726-765b
- 69817c19/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-75 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:e61d353c-db55-4a57-8184-0fab187231e6@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Globalstar 2-R Mission 2 (x 9)（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
@@ -375,8 +283,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:46d6822b-82aa-452c-aa34-80b6f052de84@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Rivada 6（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
@@ -396,120 +304,35 @@ DESCRIPTION:Rivada 6 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7d77bd89-af23-4a5a-b632-de0034003a64@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 8（暂定）
+UID:fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 1 Tracking Layer E（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
- atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
- 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/7d77bd89-af23-4a5a-b632-de0034
- 003a64/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/7d77bd89-af23-4a5a-b632-de00
- 34003a64/?format=json
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
+ ：Tranche 1 Tracking Layer E is one of five missions by the United States
+  Space Force Space Development Agency (SDA) for the Proliferated Warfigh
+ ter Space Architecture (PWSA) Tranche 1 Tracking Layer constellation\, w
+ hich will provide global indications\, warning\, tracking\, and targetin
+ g of advanced missile threats\, including hypersonic missile systems.\n发
+ 射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library
+  2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/fcbc455
+ 0-e69e-4458-a9e6-4a5b6b6b15a5/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/fcbc4550-e69e-4458-a9e6-4a5b
+ 6b6b15a5/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Rivada 8 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c703fab3-2ce4-4cf1-861d-754da3f3ad42@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer A（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
- sified mission launched by the Space Development Agency (SDA) for Tranch
- e 2 Transport Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:
- 00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.c
- om/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754da3f3ad42/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754d
- a3f3ad42/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Transport Layer A 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5ce7e9b6-b471-4a88-891f-2a6f21cb369f@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 9（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
- atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
- 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/5ce7e9b6-b471-4a88-891f-2a6f21
- cb369f/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/5ce7e9b6-b471-4a88-891f-2a6f
- 21cb369f/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rivada 9 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4c78e865-8f03-4f47-a081-b507da270d19@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-31（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
- sified US Space Force carrying two payloads directly to geostationary or
- bit.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch 
- Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/
- 4c78e865-8f03-4f47-a081-b507da270d19/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/4c78e865-8f03-4f47-a081-b507
- da270d19/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-31 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:adfc829a-6704-4d9e-b2ca-1068c38b2b83@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 4（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/adfc829a-6704-4d9e-b2ca-1068c38b2b83/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/adfc829a-6704-4d9e-b2ca-1068
- c38b2b83/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 4 当前暂定日期为明天
+DESCRIPTION:SDA Tranche 1 Tracking Layer E 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2f31a7f0-968a-448d-b447-333bf0341078@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Rivada 4（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
@@ -529,9 +352,63 @@ DESCRIPTION:Rivada 4 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:98b905bb-4060-40a2-b299-2773b6883203@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 5（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/98b905bb-4060-40a2-b299-2773b6883203/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/98b905bb-4060-40a2-b299-2773
+ b6883203/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 5 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4541ce85-0e38-42ac-a9a0-20474bb5f2cd@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 1 Transport Layer D（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
+ ：Tranche 1 Transport Layer D is one of six missions by the United States
+  Space Force Space Development Agency (SDA) for the Proliferated Warfigh
+ ter Space Architecture (PWSA) Tranche 1 Transport Layer constellation\, 
+ which will provide assured\, resilient\, low-latency military data and c
+ onnectivity worldwide to the full range of warfighter platforms from Low
+  Earth Orbit satellites.\n\nThe constellation will be interconnected wit
+ h Optical Inter-Satellite Links (OISLs) which have significantly increas
+ ed performance over existing radio frequency crosslinks. It is expected 
+ to operate over Ka band\, have stereo coverage and be dynamically networ
+ ked for simpler hand-offs\, greater bandwidth and fault tolerance.\n发射窗口
+ （UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 
+ / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0
+ e38-42ac-a9a0-20474bb5f2cd/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0e38-42ac-a9a0-2047
+ 4bb5f2cd/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 1 Transport Layer D 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:8bf5f61e-a7e1-41e6-aede-7b87e4beebab@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜CHORUS（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
@@ -562,381 +439,141 @@ DESCRIPTION:CHORUS 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c5783e2b-d458-4b99-9936-4043c236190b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 1 Transport Layer F（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Tranche 1 Transport Layer F is one of six missions by the United States
-  Space Force Space Development Agency (SDA) for the Proliferated Warfigh
- ter Space Architecture (PWSA) Tranche 1 Transport Layer constellation\, 
- which will provide assured\, resilient\, low-latency military data and c
- onnectivity worldwide to the full range of warfighter platforms from Low
-  Earth Orbit satellites.\n\nThe constellation will be interconnected wit
- h Optical Inter-Satellite Links (OISLs) which have significantly increas
- ed performance over existing radio frequency crosslinks. It is expected 
- to operate over Ka band\, have stereo coverage and be dynamically networ
- ked for simpler hand-offs\, greater bandwidth and fault tolerance.\n发射窗口
- （UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 
- / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/c5783e2b-d
- 458-4b99-9936-4043c236190b/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/c5783e2b-d458-4b99-9936-4043
- c236190b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 1 Transport Layer F 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:98b905bb-4060-40a2-b299-2773b6883203@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 5（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/98b905bb-4060-40a2-b299-2773b6883203/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/98b905bb-4060-40a2-b299-2773
- b6883203/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 5 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:71df1dd0-d658-4762-b0bc-0fca6886aea7@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer D（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
- ssified mission launched by the Space Development Agency (SDA) for Tranc
- he 2 Transport Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00
- :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
- com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca
- 6886aea7/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Transport Layer D 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:428edcbe-bbd7-4475-8eb1-3dd90b39ad75@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 2（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/428edcbe-bbd7-4475-8eb1-3dd90b39ad75/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/428edcbe-bbd7-4475-8eb1-3dd9
- 0b39ad75/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 2 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d74afbc7-0de5-491c-be05-4e9c31f736ac@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Cygnus CRS-2 NG-25（暂定）
-LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Thi
- s is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft C
- ygnus and its 24th flight to the International Space Station under the C
- ommercial Resupply Services contract with NASA.\n发射窗口（UTC）：2026-12-31T00
- :00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详
- 情：https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c3
- 1f736ac/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c
- 31f736ac/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Cygnus CRS-2 NG-25 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:71ed4649-8d71-42e8-8548-d42ffa2c5a6e@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer E（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
- ssified mission launched by the Space Development Agency (SDA) for Tranc
- he 2 Transport Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00
- :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
- com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42f
- fa2c5a6e/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Transport Layer E 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ad00f137-39e4-4780-be30-443020b2a5aa@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 6（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/ad00f137-39e4-4780-be30-443020b2a5aa/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/ad00f137-39e4-4780-be30-4430
- 20b2a5aa/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 6 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1ce39fa1-5f79-4d7b-9aa9-9a5aad74a46a@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 7（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/1ce39fa1-5f79-4d7b-9aa9-9a5aad74a46a/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/1ce39fa1-5f79-4d7b-9aa9-9a5a
- ad74a46a/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 7 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d6615c37-dcef-45d1-96c1-3d1a5250bf13@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 3（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/d6615c37-dcef-45d1-96c1-3d1a5250bf13/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/d6615c37-dcef-45d1-96c1-3d1a
- 5250bf13/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 3 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cb1762f0-90f4-4902-a5f6-655a7ade25bf@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer B（暂定）
+UID:4c78e865-8f03-4f47-a081-b507da270d19@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-31（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
- sified mission launched by the Space Development Agency (SDA) for Tranch
- e 2 Tracking Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:0
- 0Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.co
- m/2.2.0/launch/cb1762f0-90f4-4902-a5f6-655a7ade25bf/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/cb1762f0-90f4-4902-a5f6-655a
- 7ade25bf/?format=json
+ sified US Space Force carrying two payloads directly to geostationary or
+ bit.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch 
+ Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/
+ 4c78e865-8f03-4f47-a081-b507da270d19/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/4c78e865-8f03-4f47-a081-b507
+ da270d19/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Tracking Layer B 当前暂定日期为明天
+DESCRIPTION:USSF-31 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:511a3ef8-799e-4723-9293-b954d9d2eb83@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 10（暂定）
+UID:c1bd775a-2fff-45bb-9726-765b69817c19@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-75（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Year\n任务：Classifi
+ ed payload for the United States Space Force\n发射窗口（UTC）：2026-12-31T00:00
+ :00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：h
+ ttps://ll.thespacedevs.com/2.2.0/launch/c1bd775a-2fff-45bb-9726-765b6981
+ 7c19/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/c1bd775a-2fff-45bb-9726-765b
+ 69817c19/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSF-75 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5ce7e9b6-b471-4a88-891f-2a6f21cb369f@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 9（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
  atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
  00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/511a3ef8-799e-4723-9293-b954d9
- d2eb83/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/511a3ef8-799e-4723-9293-b954
- d9d2eb83/?format=json
+ ：https://ll.thespacedevs.com/2.2.0/launch/5ce7e9b6-b471-4a88-891f-2a6f21
+ cb369f/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/5ce7e9b6-b471-4a88-891f-2a6f
+ 21cb369f/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Rivada 10 当前暂定日期为明天
+DESCRIPTION:Rivada 9 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bf5c6fa2-3add-49ff-aad6-c6450148cd89@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 12（暂定）
+UID:7d77bd89-af23-4a5a-b632-de0034003a64@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 8（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
  atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
  00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/bf5c6fa2-3add-49ff-aad6-c64501
- 48cd89/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/bf5c6fa2-3add-49ff-aad6-c645
- 0148cd89/?format=json
+ ：https://ll.thespacedevs.com/2.2.0/launch/7d77bd89-af23-4a5a-b632-de0034
+ 003a64/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/7d77bd89-af23-4a5a-b632-de00
+ 34003a64/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Rivada 12 当前暂定日期为明天
+DESCRIPTION:Rivada 8 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d08d8b46-353b-4eee-ab5e-e1385b329008@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 11（暂定）
+UID:1fa3741c-3339-4954-a026-2cd9d36161c0@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 7（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
  atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
  00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/d08d8b46-353b-4eee-ab5e-e1385b
- 329008/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/d08d8b46-353b-4eee-ab5e-e138
- 5b329008/?format=json
+ ：https://ll.thespacedevs.com/2.2.0/launch/1fa3741c-3339-4954-a026-2cd9d3
+ 6161c0/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/1fa3741c-3339-4954-a026-2cd9
+ d36161c0/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Rivada 11 当前暂定日期为明天
+DESCRIPTION:Rivada 7 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ab932c60-d808-4825-ab71-b6fe0a745f15@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 3（暂定）
+UID:c703fab3-2ce4-4cf1-861d-754da3f3ad42@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer A（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
- atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
- 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/ab932c60-d808-4825-ab71-b6fe0a
- 745f15/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/ab932c60-d808-4825-ab71-b6fe
- 0a745f15/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rivada 3 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dca8749f-1552-485a-8061-f1ad79055b8d@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 1 Tracking Layer C（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Tranche 1 Tracking Layer C is one of five missions by the United States
-  Space Force Space Development Agency (SDA) for the Proliferated Warfigh
- ter Space Architecture (PWSA) Tranche 1 Tracking Layer constellation\, w
- hich will provide global indications\, warning\, tracking\, and targetin
- g of advanced missile threats\, including hypersonic missile systems.\n发
- 射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library
-  2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/dca8749
- f-1552-485a-8061-f1ad79055b8d/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/dca8749f-1552-485a-8061-f1ad
- 79055b8d/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 1 Tracking Layer C 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0a07a23e-606a-4589-bf3e-c3e41bd4de51@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer A（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
  sified mission launched by the Space Development Agency (SDA) for Tranch
- e 2 Tracking Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:0
- 0Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.co
- m/2.2.0/launch/0a07a23e-606a-4589-bf3e-c3e41bd4de51/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/0a07a23e-606a-4589-bf3e-c3e4
- 1bd4de51/?format=json
+ e 2 Transport Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:
+ 00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.c
+ om/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754da3f3ad42/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/c703fab3-2ce4-4cf1-861d-754d
+ a3f3ad42/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Tracking Layer A 当前暂定日期为明天
+DESCRIPTION:SDA Tranche 2 Transport Layer A 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:01ca3653-126a-4c01-94fb-a9467b39cdac@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Inmarsat-7 F1 (GX-7)（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
@@ -966,13 +603,36 @@ DESCRIPTION:Inmarsat-7 F1 (GX-7) 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4541ce85-0e38-42ac-a9a0-20474bb5f2cd@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 1 Transport Layer D（暂定）
+UID:adfc829a-6704-4d9e-b2ca-1068c38b2b83@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 4（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/adfc829a-6704-4d9e-b2ca-1068c38b2b83/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/adfc829a-6704-4d9e-b2ca-1068
+ c38b2b83/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 4 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5783e2b-d458-4b99-9936-4043c236190b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 1 Transport Layer F（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Tranche 1 Transport Layer D is one of six missions by the United States
+ ：Tranche 1 Transport Layer F is one of six missions by the United States
   Space Force Space Development Agency (SDA) for the Proliferated Warfigh
  ter Space Architecture (PWSA) Tranche 1 Transport Layer constellation\, 
  which will provide assured\, resilient\, low-latency military data and c
@@ -983,23 +643,45 @@ DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精�
  to operate over Ka band\, have stereo coverage and be dynamically networ
  ked for simpler hand-offs\, greater bandwidth and fault tolerance.\n发射窗口
  （UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 
- / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0
- e38-42ac-a9a0-20474bb5f2cd/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/4541ce85-0e38-42ac-a9a0-2047
- 4bb5f2cd/?format=json
+ / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/c5783e2b-d
+ 458-4b99-9936-4043c236190b/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/c5783e2b-d458-4b99-9936-4043
+ c236190b/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 1 Transport Layer D 当前暂定日期为明天
+DESCRIPTION:SDA Tranche 1 Transport Layer F 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dfd444f9-ddda-4b35-8f51-cda7cd801809@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 1（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
+ atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
+ 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/dfd444f9-ddda-4b35-8f51-cda7cd
+ 801809/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/dfd444f9-ddda-4b35-8f51-cda7
+ cd801809/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rivada 1 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2d0472b9-463d-49c8-afb1-7925e49a3368@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SDA Tranche 1 Tracking Layer A（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
@@ -1023,31 +705,9 @@ DESCRIPTION:SDA Tranche 1 Tracking Layer A 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dfd444f9-ddda-4b35-8f51-cda7cd801809@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 1（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
- atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
- 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/dfd444f9-ddda-4b35-8f51-cda7cd
- 801809/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/dfd444f9-ddda-4b35-8f51-cda7
- cd801809/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Rivada 1 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:4d3943e9-c894-46c4-a318-84d526d0ef40@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Cygnus CRS-2 NG-22（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：This
@@ -1071,54 +731,121 @@ DESCRIPTION:Cygnus CRS-2 NG-22 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1fa3741c-3339-4954-a026-2cd9d36161c0@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Rivada 7（暂定）
+UID:0a07a23e-606a-4589-bf3e-c3e41bd4de51@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer A（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
+ sified mission launched by the Space Development Agency (SDA) for Tranch
+ e 2 Tracking Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:0
+ 0Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.co
+ m/2.2.0/launch/0a07a23e-606a-4589-bf3e-c3e41bd4de51/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/0a07a23e-606a-4589-bf3e-c3e4
+ 1bd4de51/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Tracking Layer A 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20fa8dc4-8cab-41cf-b452-98a2620f7e86@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 2（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
  atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
  00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/1fa3741c-3339-4954-a026-2cd9d3
- 6161c0/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/1fa3741c-3339-4954-a026-2cd9
- d36161c0/?format=json
+ ：https://ll.thespacedevs.com/2.2.0/launch/20fa8dc4-8cab-41cf-b452-98a262
+ 0f7e86/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/20fa8dc4-8cab-41cf-b452-98a2
+ 620f7e86/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Rivada 7 当前暂定日期为明天
+DESCRIPTION:Rivada 2 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ce1317de-ec94-4479-9b28-38ebf11f13ae@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 1（暂定）
+UID:d6615c37-dcef-45d1-96c1-3d1a5250bf13@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 3（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Up 
- to 18 satellites manufactured by MDA for Canadian satellite operator Tel
- esat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-
- 12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.th
- espacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format
- =json
-URL:https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38eb
- f11f13ae/?format=json
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/d6615c37-dcef-45d1-96c1-3d1a5250bf13/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/d6615c37-dcef-45d1-96c1-3d1a
+ 5250bf13/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 1 当前暂定日期为明天
+DESCRIPTION:Telesat Lightspeed 3 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1ce39fa1-5f79-4d7b-9aa9-9a5aad74a46a@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 7（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/1ce39fa1-5f79-4d7b-9aa9-9a5aad74a46a/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/1ce39fa1-5f79-4d7b-9aa9-9a5a
+ ad74a46a/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 7 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d08d8b46-353b-4eee-ab5e-e1385b329008@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 11（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
+ atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
+ 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/d08d8b46-353b-4eee-ab5e-e1385b
+ 329008/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/d08d8b46-353b-4eee-ab5e-e138
+ 5b329008/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rivada 11 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fc1bd321-e502-4d0f-81f4-1926dece81c6@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜VICTUS SURGO（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：A ne
@@ -1143,9 +870,304 @@ DESCRIPTION:VICTUS SURGO 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:71ed4649-8d71-42e8-8548-d42ffa2c5a6e@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer E（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
+ ssified mission launched by the Space Development Agency (SDA) for Tranc
+ he 2 Transport Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00
+ :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
+ com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42ffa2c5a6e/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/71ed4649-8d71-42e8-8548-d42f
+ fa2c5a6e/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Transport Layer E 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fa895702-687b-4ba3-95fb-9462a2c9844b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 5（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
+ atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
+ 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/fa895702-687b-4ba3-95fb-9462a2
+ c9844b/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/fa895702-687b-4ba3-95fb-9462
+ a2c9844b/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rivada 5 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d74afbc7-0de5-491c-be05-4e9c31f736ac@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Cygnus CRS-2 NG-25（暂定）
+LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Thi
+ s is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft C
+ ygnus and its 24th flight to the International Space Station under the C
+ ommercial Resupply Services contract with NASA.\n发射窗口（UTC）：2026-12-31T00
+ :00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详
+ 情：https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c3
+ 1f736ac/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/d74afbc7-0de5-491c-be05-4e9c
+ 31f736ac/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Cygnus CRS-2 NG-25 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab932c60-d808-4825-ab71-b6fe0a745f15@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 3（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
+ atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
+ 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/ab932c60-d808-4825-ab71-b6fe0a
+ 745f15/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/ab932c60-d808-4825-ab71-b6fe
+ 0a745f15/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rivada 3 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dca8749f-1552-485a-8061-f1ad79055b8d@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 1 Tracking Layer C（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
+ ：Tranche 1 Tracking Layer C is one of five missions by the United States
+  Space Force Space Development Agency (SDA) for the Proliferated Warfigh
+ ter Space Architecture (PWSA) Tranche 1 Tracking Layer constellation\, w
+ hich will provide global indications\, warning\, tracking\, and targetin
+ g of advanced missile threats\, including hypersonic missile systems.\n发
+ 射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library
+  2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/dca8749
+ f-1552-485a-8061-f1ad79055b8d/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/dca8749f-1552-485a-8061-f1ad
+ 79055b8d/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 1 Tracking Layer C 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bf5c6fa2-3add-49ff-aad6-c6450148cd89@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 12（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
+ atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
+ 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/bf5c6fa2-3add-49ff-aad6-c64501
+ 48cd89/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/bf5c6fa2-3add-49ff-aad6-c645
+ 0148cd89/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rivada 12 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:511a3ef8-799e-4723-9293-b954d9d2eb83@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Rivada 10（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：24 s
+ atellites for Rivada's internet constellation.\n发射窗口（UTC）：2026-12-31T00:
+ 00:00Z – 2026-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/511a3ef8-799e-4723-9293-b954d9
+ d2eb83/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/511a3ef8-799e-4723-9293-b954
+ d9d2eb83/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Rivada 10 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cb1762f0-90f4-4902-a5f6-655a7ade25bf@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer B（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
+ sified mission launched by the Space Development Agency (SDA) for Tranch
+ e 2 Tracking Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00:0
+ 0Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.co
+ m/2.2.0/launch/cb1762f0-90f4-4902-a5f6-655a7ade25bf/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/cb1762f0-90f4-4902-a5f6-655a
+ 7ade25bf/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Tracking Layer B 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce1317de-ec94-4479-9b28-38ebf11f13ae@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 1（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Up 
+ to 18 satellites manufactured by MDA for Canadian satellite operator Tel
+ esat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-
+ 12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.th
+ espacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/?format
+ =json
+URL:https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38eb
+ f11f13ae/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 1 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ad00f137-39e4-4780-be30-443020b2a5aa@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 6（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/ad00f137-39e4-4780-be30-443020b2a5aa/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/ad00f137-39e4-4780-be30-4430
+ 20b2a5aa/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 6 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:428edcbe-bbd7-4475-8eb1-3dd90b39ad75@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 2（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/428edcbe-bbd7-4475-8eb1-3dd90b39ad75/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/428edcbe-bbd7-4475-8eb1-3dd9
+ 0b39ad75/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 2 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:71df1dd0-d658-4762-b0bc-0fca6886aea7@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer D（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
+ ssified mission launched by the Space Development Agency (SDA) for Tranc
+ he 2 Transport Layer.\n发射窗口（UTC）：2026-12-31T00:00:00Z – 2026-12-31T00:00
+ :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
+ com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca6886aea7/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/71df1dd0-d658-4762-b0bc-0fca
+ 6886aea7/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Transport Layer D 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:542a51bb-2351-48b9-98c5-9db130fb4c29@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer C（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
+ ssified mission launched by the Space Development Agency (SDA) for Tranc
+ he 2 Transport Layer.\n发射窗口（UTC）：2027-01-31T00:00:00Z – 2027-01-31T00:00
+ :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
+ com/2.2.0/launch/542a51bb-2351-48b9-98c5-9db130fb4c29/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/542a51bb-2351-48b9-98c5-9db1
+ 30fb4c29/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Transport Layer C 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:de3d5d91-f115-4a86-b923-203a91a08735@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Axiom Space Mission 5（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Thi
@@ -1167,31 +1189,9 @@ DESCRIPTION:Axiom Space Mission 5 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:542a51bb-2351-48b9-98c5-9db130fb4c29@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer C（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
- ssified mission launched by the Space Development Agency (SDA) for Tranc
- he 2 Transport Layer.\n发射窗口（UTC）：2027-01-31T00:00:00Z – 2027-01-31T00:00
- :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
- com/2.2.0/launch/542a51bb-2351-48b9-98c5-9db130fb4c29/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/542a51bb-2351-48b9-98c5-9db1
- 30fb4c29/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270131
-DTEND;VALUE=DATE:20270201
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Transport Layer C 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:5276b922-e440-466b-9b19-5851a2d67e75@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer F（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
@@ -1211,9 +1211,59 @@ DESCRIPTION:SDA Tranche 2 Transport Layer F 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:3624047e-9891-420b-820f-7db4a7570383@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer G（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
+ ssified mission launched by the Space Development Agency (SDA) for Tranc
+ he 2 Transport Layer.\n发射窗口（UTC）：2027-02-28T00:00:00Z – 2027-02-28T00:00
+ :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
+ com/2.2.0/launch/3624047e-9891-420b-820f-7db4a7570383/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/3624047e-9891-420b-820f-7db4
+ a7570383/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Transport Layer G 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:02e34864-4363-4056-b884-9d4a7a9cd5e8@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Trinity（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Tri
+ nity is a three-spacecraft mission from US satellite manufacturer K2 Spa
+ ce\, with each satellite deploying to a different orbital regime to prov
+ e out K2 Space’s multi-orbit satellite platform. 2 satellites will be dr
+ opped off in LEO\, 1 remaining in LEO for a period before raising itself
+  to MEO\, while the other will immediately begin climbing to MEO and wil
+ l aim to complete orbit raising within 90 days. The 3rd satellite will b
+ e launched directly into a geostationary transfer orbit.\n发射窗口（UTC）：2027
+ -02-28T00:00:00Z – 2027-02-28T00:00:00Z\n数据源：Launch Library 2 / The Spac
+ e Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/02e34864-4363-4056-b
+ 884-9d4a7a9cd5e8/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/02e34864-4363-4056-b884-9d4a
+ 7a9cd5e8/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Trinity 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:8d066e3a-ed12-4997-a5f4-3bc13cf5c8a2@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SICRAL 3A（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：SIC
@@ -1241,59 +1291,60 @@ DESCRIPTION:SICRAL 3A 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:02e34864-4363-4056-b884-9d4a7a9cd5e8@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Trinity（暂定）
+UID:0c26b3d4-43e3-4c1a-8976-592ff319bc51@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Nova-C IM-3（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Tri
- nity is a three-spacecraft mission from US satellite manufacturer K2 Spa
- ce\, with each satellite deploying to a different orbital regime to prov
- e out K2 Space’s multi-orbit satellite platform. 2 satellites will be dr
- opped off in LEO\, 1 remaining in LEO for a period before raising itself
-  to MEO\, while the other will immediately begin climbing to MEO and wil
- l aim to complete orbit raising within 90 days. The 3rd satellite will b
- e launched directly into a geostationary transfer orbit.\n发射窗口（UTC）：2027
- -02-28T00:00:00Z – 2027-02-28T00:00:00Z\n数据源：Launch Library 2 / The Spac
- e Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/02e34864-4363-4056-b
- 884-9d4a7a9cd5e8/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/02e34864-4363-4056-b884-9d4a
- 7a9cd5e8/?format=json
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 1\n任务
+ ：This is the third mission to the Moon for Intuitive Machines with its N
+ ova-C lunar lander. It is to deliver 130 kg of payloads to the lunar sur
+ face. This mission also includes a rideshare possibility due to availabl
+ e excess capacity on the launch vehicle.\n发射窗口（UTC）：2027-03-31T00:00:00Z
+  – 2027-03-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https
+ ://ll.thespacedevs.com/2.2.0/launch/0c26b3d4-43e3-4c1a-8976-592ff319bc51
+ /?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/0c26b3d4-43e3-4c1a-8976-592f
+ f319bc51/?format=json
 STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Trinity 当前暂定日期为明天
+DESCRIPTION:Nova-C IM-3 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3624047e-9891-420b-820f-7db4a7570383@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer G（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
- ssified mission launched by the Space Development Agency (SDA) for Tranc
- he 2 Transport Layer.\n发射窗口（UTC）：2027-02-28T00:00:00Z – 2027-02-28T00:00
- :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
- com/2.2.0/launch/3624047e-9891-420b-820f-7db4a7570383/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/3624047e-9891-420b-820f-7db4
- a7570383/?format=json
+UID:9bfa0324-db74-444f-8dc3-1c7d373ca659@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜5x Astranis MicroGEO（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Fiv
+ e Astranis MicroGEO communications satellite to be inserted in a custom 
+ geostationary orbit\, from where they conduct on-orbit maneuvers to reac
+ h their individual slots.\n\nThe 5 satellites include:\n\n* Apco 1 & Apc
+ o 2 (Mexico)\n\n* Thaicom-9 (Thailand)\n\n* 1x for Chunghwa Telecom (Tai
+ wan)\n\n* 1x for MB Group (Oman)\n发射窗口（UTC）：2027-03-31T00:00:00Z – 2027-
+ 03-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.th
+ espacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format
+ =json
+URL:https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d
+ 373ca659/?format=json
 STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Transport Layer G 当前暂定日期为明天
+DESCRIPTION:5x Astranis MicroGEO 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb34dbf6-9b46-400a-94d6-a0b6dbd6cb03@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜WSF-M2 & BLAZE-2 (USSF-178)（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 1\n任务
@@ -1326,35 +1377,9 @@ DESCRIPTION:WSF-M2 & BLAZE-2 (USSF-178) 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9bfa0324-db74-444f-8dc3-1c7d373ca659@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜5x Astranis MicroGEO（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Fiv
- e Astranis MicroGEO communications satellite to be inserted in a custom 
- geostationary orbit\, from where they conduct on-orbit maneuvers to reac
- h their individual slots.\n\nThe 5 satellites include:\n\n* Apco 1 & Apc
- o 2 (Mexico)\n\n* Thaicom-9 (Thailand)\n\n* 1x for Chunghwa Telecom (Tai
- wan)\n\n* 1x for MB Group (Oman)\n发射窗口（UTC）：2027-03-31T00:00:00Z – 2027-
- 03-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.th
- espacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d373ca659/?format
- =json
-URL:https://ll.thespacedevs.com/2.2.0/launch/9bfa0324-db74-444f-8dc3-1c7d
- 373ca659/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270331
-DTEND;VALUE=DATE:20270401
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:5x Astranis MicroGEO 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cedcc397-f2c2-439f-9bed-b983669fc205@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer H（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
@@ -1374,34 +1399,9 @@ DESCRIPTION:SDA Tranche 2 Transport Layer H 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0c26b3d4-43e3-4c1a-8976-592ff319bc51@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Nova-C IM-3（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 1\n任务
- ：This is the third mission to the Moon for Intuitive Machines with its N
- ova-C lunar lander. It is to deliver 130 kg of payloads to the lunar sur
- face. This mission also includes a rideshare possibility due to availabl
- e excess capacity on the launch vehicle.\n发射窗口（UTC）：2027-03-31T00:00:00Z
-  – 2027-03-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https
- ://ll.thespacedevs.com/2.2.0/launch/0c26b3d4-43e3-4c1a-8976-592ff319bc51
- /?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/0c26b3d4-43e3-4c1a-8976-592f
- f319bc51/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270331
-DTEND;VALUE=DATE:20270401
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Nova-C IM-3 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:4cc61288-6f94-41de-8fd5-7fe4d72aedfb@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Haven-1（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 1\n任务
@@ -1422,8 +1422,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:71f2a458-f872-4f82-80d7-c07f9e0a1f97@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer I（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
@@ -1443,9 +1443,209 @@ DESCRIPTION:SDA Tranche 2 Transport Layer I 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:11e5e716-ba29-4472-815b-0ebf4a126c6e@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜NROL-86（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：C
+ lassified payload for the US National Reconnaissance Office\n发射窗口（UTC）：2
+ 027-06-30T00:00:00Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The S
+ pace Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/11e5e716-ba29-447
+ 2-815b-0ebf4a126c6e/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/11e5e716-ba29-4472-815b-0ebf
+ 4a126c6e/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:NROL-86 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:104004ff-a363-441a-8aa5-9b363080d05b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer C（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 2\n任务
+ ：Classified mission launched by the Space Development Agency (SDA) for T
+ ranche 2 Tracking Layer.\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00
+ :00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacede
+ vs.com/2.2.0/launch/104004ff-a363-441a-8aa5-9b363080d05b/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/104004ff-a363-441a-8aa5-9b36
+ 3080d05b/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Tracking Layer C 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3763818-4d71-403d-a10d-aa549c859b5d@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer J（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
+ ssified mission launched by the Space Development Agency (SDA) for Tranc
+ he 2 Transport Layer.\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00:00
+ :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
+ com/2.2.0/launch/f3763818-4d71-403d-a10d-aa549c859b5d/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/f3763818-4d71-403d-a10d-aa54
+ 9c859b5d/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Transport Layer J 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c75c006e-43f7-4abd-9c48-2252c2284586@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-149（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Fiscal Year\n
+ 任务：Classified payload for the US Space Force.\n发射窗口（UTC）：2027-06-30T00:0
+ 0:00Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：
+ https://ll.thespacedevs.com/2.2.0/launch/c75c006e-43f7-4abd-9c48-2252c22
+ 84586/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/c75c006e-43f7-4abd-9c48-2252
+ c2284586/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSF-149 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9642cfef-4687-495a-af2e-2ac81fa1e12a@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜KOMPSAT-7A（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：KOM
+ PSAT-7 and 7A are the follow-up satellites of KOMPSAT-3A\, whose mission
+  is to provide high-resolution satellite images to satisfy South-Korea's
+  governmental and institutional needs.\n发射窗口（UTC）：2027-06-30T00:00:00Z –
+  2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https:/
+ /ll.thespacedevs.com/2.2.0/launch/9642cfef-4687-495a-af2e-2ac81fa1e12a/?
+ format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/9642cfef-4687-495a-af2e-2ac8
+ 1fa1e12a/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:KOMPSAT-7A 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86d12414-1e9e-46f4-865a-0398f162cf28@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-63（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：C
+ lassified payload for the US Space Force.\n发射窗口（UTC）：2027-06-30T00:00:00
+ Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：http
+ s://ll.thespacedevs.com/2.2.0/launch/86d12414-1e9e-46f4-865a-0398f162cf2
+ 8/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/86d12414-1e9e-46f4-865a-0398
+ f162cf28/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSF-63 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:870f6e2b-c440-48c2-9f5a-4b9b9fbc4dd7@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer D（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 2\n任务
+ ：Classified mission launched by the Space Development Agency (SDA) for T
+ ranche 2 Tracking Layer.\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00
+ :00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacede
+ vs.com/2.2.0/launch/870f6e2b-c440-48c2-9f5a-4b9b9fbc4dd7/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/870f6e2b-c440-48c2-9f5a-4b9b
+ 9fbc4dd7/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SDA Tranche 2 Tracking Layer D 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1c4ac109-3f35-42a0-9105-3205ae4a38d4@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-155（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：C
+ lassified payload for the US Space Force.\n发射窗口（UTC）：2027-06-30T00:00:00
+ Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：http
+ s://ll.thespacedevs.com/2.2.0/launch/1c4ac109-3f35-42a0-9105-3205ae4a38d
+ 4/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/1c4ac109-3f35-42a0-9105-3205
+ ae4a38d4/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSF-155 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06648c69-704b-439b-bcf5-cb394809b3b0@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜WGS-12 (USSF-206)（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：T
+ welfth Wideband Global SATCOM (WGS) encrypted military communication sat
+ ellite\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00:00:00Z\n数据源：Launc
+ h Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launc
+ h/06648c69-704b-439b-bcf5-cb394809b3b0/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/06648c69-704b-439b-bcf5-cb39
+ 4809b3b0/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WGS-12 (USSF-206) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:b97ec300-56b8-49b1-9a17-43b06bcae6f1@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SpaceX HLS LEO Demo（暂定）
 LOCATION:Launch Complex 39A Starship Pad / Kennedy Space Center\, FL\, US
  A
@@ -1472,209 +1672,9 @@ DESCRIPTION:SpaceX HLS LEO Demo 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9642cfef-4687-495a-af2e-2ac81fa1e12a@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜KOMPSAT-7A（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：KOM
- PSAT-7 and 7A are the follow-up satellites of KOMPSAT-3A\, whose mission
-  is to provide high-resolution satellite images to satisfy South-Korea's
-  governmental and institutional needs.\n发射窗口（UTC）：2027-06-30T00:00:00Z –
-  2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https:/
- /ll.thespacedevs.com/2.2.0/launch/9642cfef-4687-495a-af2e-2ac81fa1e12a/?
- format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/9642cfef-4687-495a-af2e-2ac8
- 1fa1e12a/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:KOMPSAT-7A 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:104004ff-a363-441a-8aa5-9b363080d05b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer C（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 2\n任务
- ：Classified mission launched by the Space Development Agency (SDA) for T
- ranche 2 Tracking Layer.\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00
- :00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacede
- vs.com/2.2.0/launch/104004ff-a363-441a-8aa5-9b363080d05b/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/104004ff-a363-441a-8aa5-9b36
- 3080d05b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Tracking Layer C 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c75c006e-43f7-4abd-9c48-2252c2284586@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-149（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Fiscal Year\n
- 任务：Classified payload for the US Space Force.\n发射窗口（UTC）：2027-06-30T00:0
- 0:00Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：
- https://ll.thespacedevs.com/2.2.0/launch/c75c006e-43f7-4abd-9c48-2252c22
- 84586/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/c75c006e-43f7-4abd-9c48-2252
- c2284586/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-149 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f3763818-4d71-403d-a10d-aa549c859b5d@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Transport Layer J（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Cla
- ssified mission launched by the Space Development Agency (SDA) for Tranc
- he 2 Transport Layer.\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00:00
- :00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.
- com/2.2.0/launch/f3763818-4d71-403d-a10d-aa549c859b5d/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/f3763818-4d71-403d-a10d-aa54
- 9c859b5d/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Transport Layer J 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1c4ac109-3f35-42a0-9105-3205ae4a38d4@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-155（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：C
- lassified payload for the US Space Force.\n发射窗口（UTC）：2027-06-30T00:00:00
- Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：http
- s://ll.thespacedevs.com/2.2.0/launch/1c4ac109-3f35-42a0-9105-3205ae4a38d
- 4/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/1c4ac109-3f35-42a0-9105-3205
- ae4a38d4/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-155 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:86d12414-1e9e-46f4-865a-0398f162cf28@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-63（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：C
- lassified payload for the US Space Force.\n发射窗口（UTC）：2027-06-30T00:00:00
- Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：http
- s://ll.thespacedevs.com/2.2.0/launch/86d12414-1e9e-46f4-865a-0398f162cf2
- 8/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/86d12414-1e9e-46f4-865a-0398
- f162cf28/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-63 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:06648c69-704b-439b-bcf5-cb394809b3b0@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜WGS-12 (USSF-206)（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：T
- welfth Wideband Global SATCOM (WGS) encrypted military communication sat
- ellite\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00:00:00Z\n数据源：Launc
- h Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launc
- h/06648c69-704b-439b-bcf5-cb394809b3b0/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/06648c69-704b-439b-bcf5-cb39
- 4809b3b0/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:WGS-12 (USSF-206) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:11e5e716-ba29-4472-815b-0ebf4a126c6e@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜NROL-86（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Fiscal Year\n任务：C
- lassified payload for the US National Reconnaissance Office\n发射窗口（UTC）：2
- 027-06-30T00:00:00Z – 2027-06-30T00:00:00Z\n数据源：Launch Library 2 / The S
- pace Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/11e5e716-ba29-447
- 2-815b-0ebf4a126c6e/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/11e5e716-ba29-4472-815b-0ebf
- 4a126c6e/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:NROL-86 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:870f6e2b-c440-48c2-9f5a-4b9b9fbc4dd7@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SDA Tranche 2 Tracking Layer D（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 2\n任务
- ：Classified mission launched by the Space Development Agency (SDA) for T
- ranche 2 Tracking Layer.\n发射窗口（UTC）：2027-06-30T00:00:00Z – 2027-06-30T00
- :00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacede
- vs.com/2.2.0/launch/870f6e2b-c440-48c2-9f5a-4b9b9fbc4dd7/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/870f6e2b-c440-48c2-9f5a-4b9b
- 9fbc4dd7/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270701
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SDA Tranche 2 Tracking Layer D 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:99875c7b-400c-40e2-b16c-bb9b2a02a0d8@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Vast-1（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Fir
@@ -1697,8 +1697,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:50a054f3-4e03-4158-af80-18f0b25ad644@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜COSI (Compton Spectrometer and Imager)（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Wid
@@ -1724,8 +1724,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f3a1a032-5cca-4733-9ca8-04a5a1dba222@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜PAM-6 (Vast ISS Mission 1)（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 3\n任务
@@ -1751,8 +1751,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c07cac30-849b-4e24-91e2-c064e6db456e@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Arabsat 7A（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：Geo
@@ -1773,8 +1773,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2b33643b-681b-4616-96a2-f1e986e03615@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SICRAL 3B（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：SIC
@@ -1802,432 +1802,9 @@ DESCRIPTION:SICRAL 3B 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fd7610d8-d883-4da0-bac2-cbbbbe34a33e@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 10（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/fd7610d8-d883-4da0-bac2-cbbbbe34a33e/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/fd7610d8-d883-4da0-bac2-cbbb
- be34a33e/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 10 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3c0ec64f-8692-44fc-a249-318450b89b7f@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 12（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/3c0ec64f-8692-44fc-a249-318450b89b7f/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/3c0ec64f-8692-44fc-a249-3184
- 50b89b7f/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 12 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c42d6d44-8130-4f38-8ff5-f32e2f566711@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Chinggis Sat（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Chin
- ggis Sat is a Mongolian national geostationary orbit telecommunications 
- satellite for the Mongolia Ministry of Digital Development and Communica
- tions. Thales Alenia Space will be responsible for construction of the h
- igh-performance Ku-Band satellite. Once launched\, the satellite will ma
- ke high-speed internet available throughout Mongolia\, including to thos
- e in rural areas and under-served nomadic communities\, enabling easier 
- and wider access to services such as tele-medicine\, e-learning\, e-gove
- rnment services and supporting the growth of high value add sectors of t
- he economy. It will be positioned at the 113.6° E orbital slot and will 
- be based on the space-proven\, cutting-edge SpaceBus 4000 satellite bus.
- \n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Libr
- ary 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/c42d
- 6d44-8130-4f38-8ff5-f32e2f566711/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/c42d6d44-8130-4f38-8ff5-f32e
- 2f566711/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Chinggis Sat 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d88a9bd5-76c4-4c55-b2eb-8cd3e071b02c@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜JPSS 4 (Joint Polar Satellite System spacecraft No. 4)（暂
- 定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：The
-  JPSS constellation of satellites collects global multi-spectral radiome
- try and other specialized meteorologic\, oceanographic\, and solar-geoph
- ysical data via remote sensing of land\, sea\, and atmospheric propertie
- s. These data support NOAA’s mission for continuous observation of Earth
- ’s environment to understand and predict changes in weather\, climate\, 
- oceans\, and coasts to support the nation’s economy and protect lives an
- d property. NASA uses the instruments aboard the JPSS satellites to cont
- inue decades of Earth science research for the betterment of humanity. J
- PSS-4 carries the NASA Earth Venture mission Libera\, an instrument to i
- mprove our understanding of trends in Earth’s energy imbalance and our c
- hanging climate.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\
- n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2
- .2.0/launch/d88a9bd5-76c4-4c55-b2eb-8cd3e071b02c/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/d88a9bd5-76c4-4c55-b2eb-8cd3
- e071b02c/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:JPSS 4 (Joint Polar Satellite System spacecraft No. 4) 当前暂定日期
- 为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9bb0b2d4-8553-44a4-bb02-488499ec9698@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 9（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/9bb0b2d4-8553-44a4-bb02-488499ec9698/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/9bb0b2d4-8553-44a4-bb02-4884
- 99ec9698/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 9 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7d1736d2-56e0-43a2-8665-4daf5074e65b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Astrobotic-3（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Year\n任务：Third As
- trobotic lunar mission\, details TBA.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 
- 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://
- ll.thespacedevs.com/2.2.0/launch/7d1736d2-56e0-43a2-8665-4daf5074e65b/?f
- ormat=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/7d1736d2-56e0-43a2-8665-4daf
- 5074e65b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Astrobotic-3 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:271b3134-d5a2-40f6-bc20-83cffb9414c3@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 13（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/271b3134-d5a2-40f6-bc20-83cffb9414c3/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/271b3134-d5a2-40f6-bc20-83cf
- fb9414c3/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 13 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:887ed4ee-f7f0-4316-ac5c-d89f3844914b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 14（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/887ed4ee-f7f0-4316-ac5c-d89f3844914b/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/887ed4ee-f7f0-4316-ac5c-d89f
- 3844914b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 14 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7fed6954-5934-43ec-b32e-199d1759f215@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜6x Astranis MicroGEO（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Six 
- Astranis MicroGEO communications satellite to be inserted into Low Earth
-  orbit by the Falcon 9\, from where the Helios upper stage provided by I
- mpulse Space will carry the satellites to geostationary orbit within 24 
- hours of launch.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\
- n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2
- .2.0/launch/7fed6954-5934-43ec-b32e-199d1759f215/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/7fed6954-5934-43ec-b32e-199d
- 1759f215/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:6x Astranis MicroGEO 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:37908d2e-fb37-4cb1-80ca-35f1ca949b76@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Exolaunch Exo-1（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Dedicated ride-share mission to be offered by the small satellite launc
- h integrator Exolaunch to low Earth orbit.\n发射窗口（UTC）：2027-12-31T00:00:0
- 0Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/37908d2e-fb37-4cb1-80ca-35f1ca949b
- 76/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/37908d2e-fb37-4cb1-80ca-35f1
- ca949b76/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Exolaunch Exo-1 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:28df7f2b-11ef-468f-b269-1b174ebaaabd@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 11（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/28df7f2b-11ef-468f-b269-1b174ebaaabd/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/28df7f2b-11ef-468f-b269-1b17
- 4ebaaabd/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 11 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4548bcd5-4e69-46f7-a40e-d4717a0949f8@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜FOO Fighter (F2)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
- 任务：Classified mission launched by the Space Development Agency (SDA) wit
- h eight Fire-control On Orbit-support-to-the-war Fighter (F2) satellites
-  built by Millennium Space Systems.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 20
- 27-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll
- .thespacedevs.com/2.2.0/launch/4548bcd5-4e69-46f7-a40e-d4717a0949f8/?for
- mat=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/4548bcd5-4e69-46f7-a40e-d471
- 7a0949f8/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:FOO Fighter (F2) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:acf48226-23d4-4c9f-b9d2-5c3e0bf08108@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Telesat Lightspeed 8（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
- o 18 satellites manufactured by MDA for Canadian satellite operator Tele
- sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
- 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
- spacedevs.com/2.2.0/launch/acf48226-23d4-4c9f-b9d2-5c3e0bf08108/?format=
- json
-URL:https://ll.thespacedevs.com/2.2.0/launch/acf48226-23d4-4c9f-b9d2-5c3e
- 0bf08108/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Telesat Lightspeed 8 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:67787be2-7b6b-44df-ab10-8c828900868b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜GEO-KOMPSAT-3（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
- 任务：3.7-ton South Korean geostationary communications satellite also know
- n as Chollian-3. Designed to replace GEO-Kompsat-1 launched in 2010\, it
-  features advanced payloads for communications\, disaster prevention\, m
- aritime safety and the safe flight of aircraft\n发射窗口（UTC）：2027-12-31T00:
- 00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
- ：https://ll.thespacedevs.com/2.2.0/launch/67787be2-7b6b-44df-ab10-8c8289
- 00868b/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/67787be2-7b6b-44df-ab10-8c82
- 8900868b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:GEO-KOMPSAT-3 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:01642f58-d8a9-4322-87b9-f051591ee165@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Nova-C IM-4 & 2 Lunar Data Relay Satellites（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
- 任务：This is the fourth mission to the Moon for Intuitive Machines with it
- s Nova-C lunar lander. This mission also carries two lunar data relay sa
- tellites.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\n数据源：La
- unch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/la
- unch/01642f58-d8a9-4322-87b9-f051591ee165/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/01642f58-d8a9-4322-87b9-f051
- 591ee165/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Nova-C IM-4 & 2 Lunar Data Relay Satellites 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7ec9195a-d85f-4e01-9ec9-a17f6912c44c@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜JSAT-32（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：JSAT
- -32 is a geostationary communication satellite for SKY Perfect JSAT.\n\n
- Operating in the Ku and Ka frequency bands\, JSAT-32 will provide covera
- ge over Japan and its surrounding seas\, with newly added spot beams for
-  mobility applications. JSAT-32 will serve as a future replacement for e
- xisting SKY Perfect JSAT satellites that provide communication and distr
- ibution services in Japan.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T
- 00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespace
- devs.com/2.2.0/launch/7ec9195a-d85f-4e01-9ec9-a17f6912c44c/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/7ec9195a-d85f-4e01-9ec9-a17f
- 6912c44c/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:JSAT-32 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f615ff6a-a077-4b89-bb9a-f07c2171b962@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Thor 8（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Thor 8 is a multi-purpose communications satellite for Space Norway. Th
- e satellite will both replace older satellites being phased out in the c
- oming years and provide increased capacity and service offerings that of
- fers capacity for both data services and broadcasting\, such as high pow
- er direct-to-home (DTH) television services\, from the 1° West orbital p
- osition. It carries two dedicated payloads for broadcasting in Europe an
- d the Nordics\, as well as payloads for data services to commercial and 
- governmental customers.\n\nWith a launch mass of 4 metric tons\, the sat
- ellite will be built on Thales Alenia Space’s Spacebus-4000B2 platform a
- nd will operate in the Ka and Ku frequency bands.\n发射窗口（UTC）：2027-12-31T
- 00:00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\
- n详情：https://ll.thespacedevs.com/2.2.0/launch/f615ff6a-a077-4b89-bb9a-f07
- c2171b962/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/f615ff6a-a077-4b89-bb9a-f07c
- 2171b962/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20271231
-DTEND;VALUE=DATE:20280101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Thor 8 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:c019749b-6db8-406b-9704-098a246318dd@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Gateway PPE & HALO（暂定）
 LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
 DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Year\n任务：The Powe
@@ -2258,59 +1835,215 @@ DESCRIPTION:Gateway PPE & HALO 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:387aadc6-68ca-4090-9be7-d57603ad7c79@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Blue Ghost Lunar Lander Mission 2（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：2nd 
- lunar lander developed by Firefly Aerospace. The Blue Ghost lander will 
- be of a new two-stage version utilizing an Elytra Dark transfer vehicle 
- to place it and the European Space Agency's Lunar Pathfinder experimenta
- l communication satellite into Lunar orbit.\n\nThe lander will land on t
- he far side of the Moon with 2 NASA payloads:\n\n* Lunar Surface Electro
- magnetics Experiment (LuSEE-Night)\n* User Terminal (UT)\n发射窗口（UTC）：2027
- -12-31T00:00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Spac
- e Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/387aadc6-68ca-4090-9
- be7-d57603ad7c79/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/387aadc6-68ca-4090-9be7-d576
- 03ad7c79/?format=json
+UID:7d1736d2-56e0-43a2-8665-4daf5074e65b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Astrobotic-3（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Year\n任务：Third As
+ trobotic lunar mission\, details TBA.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 
+ 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://
+ ll.thespacedevs.com/2.2.0/launch/7d1736d2-56e0-43a2-8665-4daf5074e65b/?f
+ ormat=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/7d1736d2-56e0-43a2-8665-4daf
+ 5074e65b/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Blue Ghost Lunar Lander Mission 2 当前暂定日期为明天
+DESCRIPTION:Astrobotic-3 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:97a7bd4f-c850-46d5-88f3-39e0834e03fd@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Al Yah 4（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
- 任务：Geostationary communications satellite built by Airbus Defence and Sp
- ace for Emirati satellite operator Yahsat.\n发射窗口（UTC）：2027-12-31T00:00:0
- 0Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/97a7bd4f-c850-46d5-88f3-39e0834e03
- fd/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/97a7bd4f-c850-46d5-88f3-39e0
- 834e03fd/?format=json
+UID:d88a9bd5-76c4-4c55-b2eb-8cd3e071b02c@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜JPSS 4 (Joint Polar Satellite System spacecraft No. 4)（暂
+ 定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：The
+  JPSS constellation of satellites collects global multi-spectral radiome
+ try and other specialized meteorologic\, oceanographic\, and solar-geoph
+ ysical data via remote sensing of land\, sea\, and atmospheric propertie
+ s. These data support NOAA’s mission for continuous observation of Earth
+ ’s environment to understand and predict changes in weather\, climate\, 
+ oceans\, and coasts to support the nation’s economy and protect lives an
+ d property. NASA uses the instruments aboard the JPSS satellites to cont
+ inue decades of Earth science research for the betterment of humanity. J
+ PSS-4 carries the NASA Earth Venture mission Libera\, an instrument to i
+ mprove our understanding of trends in Earth’s energy imbalance and our c
+ hanging climate.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\
+ n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2
+ .2.0/launch/d88a9bd5-76c4-4c55-b2eb-8cd3e071b02c/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/d88a9bd5-76c4-4c55-b2eb-8cd3
+ e071b02c/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Al Yah 4 当前暂定日期为明天
+DESCRIPTION:JPSS 4 (Joint Polar Satellite System spacecraft No. 4) 当前暂定日期
+ 为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d259059a-52f0-41fe-88eb-da4f17ae0da2@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Thaicom 10（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Thai
+ com 10\, built by Airbus Defence and Space\, will provide over 120 gigab
+ its per second (Gbps) of capacity\, with flexibility and instant configu
+ ration to adapt dynamically to the customers’ needs. The satellite will 
+ provide extended connectivity over the region for Thaicom’s customers an
+ d partners across the Asia Pacific.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 20
+ 27-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll
+ .thespacedevs.com/2.2.0/launch/d259059a-52f0-41fe-88eb-da4f17ae0da2/?for
+ mat=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/d259059a-52f0-41fe-88eb-da4f
+ 17ae0da2/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Thaicom 10 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fd7610d8-d883-4da0-bac2-cbbbbe34a33e@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 10（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/fd7610d8-d883-4da0-bac2-cbbbbe34a33e/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/fd7610d8-d883-4da0-bac2-cbbb
+ be34a33e/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 10 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:01642f58-d8a9-4322-87b9-f051591ee165@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Nova-C IM-4 & 2 Lunar Data Relay Satellites（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
+ 任务：This is the fourth mission to the Moon for Intuitive Machines with it
+ s Nova-C lunar lander. This mission also carries two lunar data relay sa
+ tellites.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\n数据源：La
+ unch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/la
+ unch/01642f58-d8a9-4322-87b9-f051591ee165/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/01642f58-d8a9-4322-87b9-f051
+ 591ee165/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Nova-C IM-4 & 2 Lunar Data Relay Satellites 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4548bcd5-4e69-46f7-a40e-d4717a0949f8@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜FOO Fighter (F2)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
+ 任务：Classified mission launched by the Space Development Agency (SDA) wit
+ h eight Fire-control On Orbit-support-to-the-war Fighter (F2) satellites
+  built by Millennium Space Systems.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 20
+ 27-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll
+ .thespacedevs.com/2.2.0/launch/4548bcd5-4e69-46f7-a40e-d4717a0949f8/?for
+ mat=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/4548bcd5-4e69-46f7-a40e-d471
+ 7a0949f8/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:FOO Fighter (F2) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f615ff6a-a077-4b89-bb9a-f07c2171b962@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Thor 8（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
+ ：Thor 8 is a multi-purpose communications satellite for Space Norway. Th
+ e satellite will both replace older satellites being phased out in the c
+ oming years and provide increased capacity and service offerings that of
+ fers capacity for both data services and broadcasting\, such as high pow
+ er direct-to-home (DTH) television services\, from the 1° West orbital p
+ osition. It carries two dedicated payloads for broadcasting in Europe an
+ d the Nordics\, as well as payloads for data services to commercial and 
+ governmental customers.\n\nWith a launch mass of 4 metric tons\, the sat
+ ellite will be built on Thales Alenia Space’s Spacebus-4000B2 platform a
+ nd will operate in the Ka and Ku frequency bands.\n发射窗口（UTC）：2027-12-31T
+ 00:00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\
+ n详情：https://ll.thespacedevs.com/2.2.0/launch/f615ff6a-a077-4b89-bb9a-f07
+ c2171b962/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/f615ff6a-a077-4b89-bb9a-f07c
+ 2171b962/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Thor 8 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7fed6954-5934-43ec-b32e-199d1759f215@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜6x Astranis MicroGEO（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Six 
+ Astranis MicroGEO communications satellite to be inserted into Low Earth
+  orbit by the Falcon 9\, from where the Helios upper stage provided by I
+ mpulse Space will carry the satellites to geostationary orbit within 24 
+ hours of launch.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\
+ n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2
+ .2.0/launch/7fed6954-5934-43ec-b32e-199d1759f215/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/7fed6954-5934-43ec-b32e-199d
+ 1759f215/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:6x Astranis MicroGEO 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a532fa7d-bf0d-449d-a25b-5e7561e88712@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Skynet 6A（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：The 
@@ -2338,35 +2071,302 @@ DESCRIPTION:Skynet 6A 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d259059a-52f0-41fe-88eb-da4f17ae0da2@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Thaicom 10（暂定）
+UID:9bb0b2d4-8553-44a4-bb02-488499ec9698@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 9（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Thai
- com 10\, built by Airbus Defence and Space\, will provide over 120 gigab
- its per second (Gbps) of capacity\, with flexibility and instant configu
- ration to adapt dynamically to the customers’ needs. The satellite will 
- provide extended connectivity over the region for Thaicom’s customers an
- d partners across the Asia Pacific.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 20
- 27-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll
- .thespacedevs.com/2.2.0/launch/d259059a-52f0-41fe-88eb-da4f17ae0da2/?for
- mat=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/d259059a-52f0-41fe-88eb-da4f
- 17ae0da2/?format=json
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/9bb0b2d4-8553-44a4-bb02-488499ec9698/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/9bb0b2d4-8553-44a4-bb02-4884
+ 99ec9698/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Thaicom 10 当前暂定日期为明天
+DESCRIPTION:Telesat Lightspeed 9 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c42d6d44-8130-4f38-8ff5-f32e2f566711@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Chinggis Sat（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Chin
+ ggis Sat is a Mongolian national geostationary orbit telecommunications 
+ satellite for the Mongolia Ministry of Digital Development and Communica
+ tions. Thales Alenia Space will be responsible for construction of the h
+ igh-performance Ku-Band satellite. Once launched\, the satellite will ma
+ ke high-speed internet available throughout Mongolia\, including to thos
+ e in rural areas and under-served nomadic communities\, enabling easier 
+ and wider access to services such as tele-medicine\, e-learning\, e-gove
+ rnment services and supporting the growth of high value add sectors of t
+ he economy. It will be positioned at the 113.6° E orbital slot and will 
+ be based on the space-proven\, cutting-edge SpaceBus 4000 satellite bus.
+ \n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Libr
+ ary 2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/c42d
+ 6d44-8130-4f38-8ff5-f32e2f566711/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/c42d6d44-8130-4f38-8ff5-f32e
+ 2f566711/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Chinggis Sat 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:67787be2-7b6b-44df-ab10-8c828900868b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜GEO-KOMPSAT-3（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
+ 任务：3.7-ton South Korean geostationary communications satellite also know
+ n as Chollian-3. Designed to replace GEO-Kompsat-1 launched in 2010\, it
+  features advanced payloads for communications\, disaster prevention\, m
+ aritime safety and the safe flight of aircraft\n发射窗口（UTC）：2027-12-31T00:
+ 00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情
+ ：https://ll.thespacedevs.com/2.2.0/launch/67787be2-7b6b-44df-ab10-8c8289
+ 00868b/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/67787be2-7b6b-44df-ab10-8c82
+ 8900868b/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:GEO-KOMPSAT-3 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acf48226-23d4-4c9f-b9d2-5c3e0bf08108@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 8（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/acf48226-23d4-4c9f-b9d2-5c3e0bf08108/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/acf48226-23d4-4c9f-b9d2-5c3e
+ 0bf08108/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 8 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ec9195a-d85f-4e01-9ec9-a17f6912c44c@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜JSAT-32（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：JSAT
+ -32 is a geostationary communication satellite for SKY Perfect JSAT.\n\n
+ Operating in the Ku and Ka frequency bands\, JSAT-32 will provide covera
+ ge over Japan and its surrounding seas\, with newly added spot beams for
+  mobility applications. JSAT-32 will serve as a future replacement for e
+ xisting SKY Perfect JSAT satellites that provide communication and distr
+ ibution services in Japan.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-12-31T
+ 00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespace
+ devs.com/2.2.0/launch/7ec9195a-d85f-4e01-9ec9-a17f6912c44c/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/7ec9195a-d85f-4e01-9ec9-a17f
+ 6912c44c/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:JSAT-32 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:97a7bd4f-c850-46d5-88f3-39e0834e03fd@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Al Yah 4（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
+ 任务：Geostationary communications satellite built by Airbus Defence and Sp
+ ace for Emirati satellite operator Yahsat.\n发射窗口（UTC）：2027-12-31T00:00:0
+ 0Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/97a7bd4f-c850-46d5-88f3-39e0834e03
+ fd/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/97a7bd4f-c850-46d5-88f3-39e0
+ 834e03fd/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Al Yah 4 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:387aadc6-68ca-4090-9be7-d57603ad7c79@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Blue Ghost Lunar Lander Mission 2（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：2nd 
+ lunar lander developed by Firefly Aerospace. The Blue Ghost lander will 
+ be of a new two-stage version utilizing an Elytra Dark transfer vehicle 
+ to place it and the European Space Agency's Lunar Pathfinder experimenta
+ l communication satellite into Lunar orbit.\n\nThe lander will land on t
+ he far side of the Moon with 2 NASA payloads:\n\n* Lunar Surface Electro
+ magnetics Experiment (LuSEE-Night)\n* User Terminal (UT)\n发射窗口（UTC）：2027
+ -12-31T00:00:00Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Spac
+ e Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/387aadc6-68ca-4090-9
+ be7-d57603ad7c79/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/387aadc6-68ca-4090-9be7-d576
+ 03ad7c79/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Blue Ghost Lunar Lander Mission 2 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:271b3134-d5a2-40f6-bc20-83cffb9414c3@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 13（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/271b3134-d5a2-40f6-bc20-83cffb9414c3/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/271b3134-d5a2-40f6-bc20-83cf
+ fb9414c3/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 13 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:887ed4ee-f7f0-4316-ac5c-d89f3844914b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 14（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/887ed4ee-f7f0-4316-ac5c-d89f3844914b/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/887ed4ee-f7f0-4316-ac5c-d89f
+ 3844914b/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 14 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:37908d2e-fb37-4cb1-80ca-35f1ca949b76@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Exolaunch Exo-1（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
+ ：Dedicated ride-share mission to be offered by the small satellite launc
+ h integrator Exolaunch to low Earth orbit.\n发射窗口（UTC）：2027-12-31T00:00:0
+ 0Z – 2027-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/37908d2e-fb37-4cb1-80ca-35f1ca949b
+ 76/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/37908d2e-fb37-4cb1-80ca-35f1
+ ca949b76/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Exolaunch Exo-1 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3c0ec64f-8692-44fc-a249-318450b89b7f@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 12（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/3c0ec64f-8692-44fc-a249-318450b89b7f/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/3c0ec64f-8692-44fc-a249-3184
+ 50b89b7f/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 12 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:28df7f2b-11ef-468f-b269-1b174ebaaabd@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Telesat Lightspeed 11（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Up t
+ o 18 satellites manufactured by MDA for Canadian satellite operator Tele
+ sat's Lightspeed constellation.\n发射窗口（UTC）：2027-12-31T00:00:00Z – 2027-1
+ 2-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.the
+ spacedevs.com/2.2.0/launch/28df7f2b-11ef-468f-b269-1b174ebaaabd/?format=
+ json
+URL:https://ll.thespacedevs.com/2.2.0/launch/28df7f2b-11ef-468f-b269-1b17
+ 4ebaaabd/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Telesat Lightspeed 11 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:40d980c0-caea-4851-b668-9055cd676732@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜SEOPS Waymaker-1（暂定）
 LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 1\n任务
@@ -2388,8 +2388,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:054a1928-57dc-4134-b3e3-c4c8728578b3@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜NEO Surveyor（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：NAS
@@ -2417,8 +2417,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6e0ad16-8a78-46bc-a693-fbbf5ea4db6f@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Dragonfly（暂定）
 LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
 DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Day\n任务：Dragonfly
@@ -2451,8 +2451,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:26881916-98e7-40bc-954c-88ad6ac7a050@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜ExoMars 2028 Rosalind Franklin Rover（暂定）
 LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
 DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Month\n任务：ExoMars
@@ -2482,55 +2482,32 @@ DESCRIPTION:ExoMars 2028 Rosalind Franklin Rover 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4da7127d-43db-4944-896e-31816c637738@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Exolaunch Exo-2（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Dedi
- cated ride-share mission to be offered by the small satellite launch int
- egrator Exolaunch to low Earth orbit.\n发射窗口（UTC）：2028-12-31T00:00:00Z – 
- 2028-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://
- ll.thespacedevs.com/2.2.0/launch/4da7127d-43db-4944-896e-31816c637738/?f
- ormat=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/4da7127d-43db-4944-896e-3181
- 6c637738/?format=json
+UID:562cb854-99a4-4b29-81c8-2fa14dacae55@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SEOPS Darkstar-1（暂定）
+LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
+ 任务：Dedicated ride-share mission to be offered by the small satellite lau
+ nch integrator SEOPS to geostationary transfer orbit. Payload is TBD.\n发
+ 射窗口（UTC）：2028-12-31T00:00:00Z – 2028-12-31T00:00:00Z\n数据源：Launch Library
+  2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/562cb85
+ 4-99a4-4b29-81c8-2fa14dacae55/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/562cb854-99a4-4b29-81c8-2fa1
+ 4dacae55/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20281231
 DTEND;VALUE=DATE:20290101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Exolaunch Exo-2 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a6e28fc1-dfff-4de1-a525-8c4a55183512@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SEOPS Waymaker-2（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
- ：Dedicated ride-share mission to be offered by the small satellite launc
- h integrator SEOPS to Sun-synchronous orbit.\n发射窗口（UTC）：2028-12-31T00:00
- :00Z – 2028-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：h
- ttps://ll.thespacedevs.com/2.2.0/launch/a6e28fc1-dfff-4de1-a525-8c4a5518
- 3512/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/a6e28fc1-dfff-4de1-a525-8c4a
- 55183512/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20281231
-DTEND;VALUE=DATE:20290101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:SEOPS Waymaker-2 当前暂定日期为明天
+DESCRIPTION:SEOPS Darkstar-1 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2156b17b-76ff-4140-9146-e8d52d7e8e7d@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜EchoStar 26（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Echo
@@ -2554,8 +2531,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:78775018-e720-4a50-a72c-e448a644c7a0@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Superbird-9（暂定）
 LOCATION:Launch Complex 39A Starship Pad / Kennedy Space Center\, FL\, US
  A
@@ -2579,8 +2556,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d2bf7232-3999-4fbc-b903-f05a792bca8b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Al Yah 5（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
@@ -2601,32 +2578,55 @@ DESCRIPTION:Al Yah 5 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:562cb854-99a4-4b29-81c8-2fa14dacae55@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜SEOPS Darkstar-1（暂定）
-LOCATION:Space Launch Complex 40 / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year Half 2\n
- 任务：Dedicated ride-share mission to be offered by the small satellite lau
- nch integrator SEOPS to geostationary transfer orbit. Payload is TBD.\n发
- 射窗口（UTC）：2028-12-31T00:00:00Z – 2028-12-31T00:00:00Z\n数据源：Launch Library
-  2 / The Space Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/562cb85
- 4-99a4-4b29-81c8-2fa14dacae55/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/562cb854-99a4-4b29-81c8-2fa1
- 4dacae55/?format=json
+UID:4da7127d-43db-4944-896e-31816c637738@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Exolaunch Exo-2（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Dedi
+ cated ride-share mission to be offered by the small satellite launch int
+ egrator Exolaunch to low Earth orbit.\n发射窗口（UTC）：2028-12-31T00:00:00Z – 
+ 2028-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://
+ ll.thespacedevs.com/2.2.0/launch/4da7127d-43db-4944-896e-31816c637738/?f
+ ormat=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/4da7127d-43db-4944-896e-3181
+ 6c637738/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20281231
 DTEND;VALUE=DATE:20290101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:SEOPS Darkstar-1 当前暂定日期为明天
+DESCRIPTION:Exolaunch Exo-2 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a6e28fc1-dfff-4de1-a525-8c4a55183512@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜SEOPS Waymaker-2（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Quarter 4\n任务
+ ：Dedicated ride-share mission to be offered by the small satellite launc
+ h integrator SEOPS to Sun-synchronous orbit.\n发射窗口（UTC）：2028-12-31T00:00
+ :00Z – 2028-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：h
+ ttps://ll.thespacedevs.com/2.2.0/launch/a6e28fc1-dfff-4de1-a525-8c4a5518
+ 3512/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/a6e28fc1-dfff-4de1-a525-8c4a
+ 55183512/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20281231
+DTEND;VALUE=DATE:20290101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:SEOPS Waymaker-2 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:633b152c-63ef-453d-9f16-467dcc299916@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜KPS-1（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Month\n任务：KPS
@@ -2649,9 +2649,132 @@ DESCRIPTION:KPS-1 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:230bfd2b-a9b8-4c27-98ed-03c4ffb5547f@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-07)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/230bfd2b-a9b8-4c27-98ed-03c4ffb554
+ 7f/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/230bfd2b-a9b8-4c27-98ed-03c4
+ ffb5547f/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amazon Leo (LF-07) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5484b8bc-8149-4f4c-8e2e-2fda40646f8f@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-12)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/5484b8bc-8149-4f4c-8e2e-2fda40646f
+ 8f/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/5484b8bc-8149-4f4c-8e2e-2fda
+ 40646f8f/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amazon Leo (LF-12) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3385d65-5081-401e-a543-db7f471fe282@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-174（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Decade\n任务：Classi
+ fied US Space Force mission\n发射窗口（UTC）：2029-12-31T00:00:00Z – 2029-12-31
+ T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespac
+ edevs.com/2.2.0/launch/f3385d65-5081-401e-a543-db7f471fe282/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/f3385d65-5081-401e-a543-db7f
+ 471fe282/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSF-174 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fd017b9e-e227-4cb0-b383-ec821dd4a21b@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜USSF-186（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Decade\n任务：Classi
+ fied US Space Force mission\n发射窗口（UTC）：2029-12-31T00:00:00Z – 2029-12-31
+ T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespac
+ edevs.com/2.2.0/launch/fd017b9e-e227-4cb0-b383-ec821dd4a21b/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/fd017b9e-e227-4cb0-b383-ec82
+ 1dd4a21b/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSF-186 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:602dd99f-c8da-43cb-b984-424ce57a50de@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-06)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/602dd99f-c8da-43cb-b984-424ce57a50
+ de/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/602dd99f-c8da-43cb-b984-424c
+ e57a50de/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amazon Leo (LF-06) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:6af44c56-2b17-40da-a198-886757b694e4@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Amazon Leo (LF-13)（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
@@ -2676,31 +2799,63 @@ DESCRIPTION:Amazon Leo (LF-13) 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4651fd8a-43de-4166-bf8f-c168b3bd1d2c@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜NROL-97（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Decade\n任务：Classi
- fied payload for the US National Reconnaissance Office\n发射窗口（UTC）：2029-1
- 2-31T00:00:00Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space 
- Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/4651fd8a-43de-4166-bf8
- f-c168b3bd1d2c/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/4651fd8a-43de-4166-bf8f-c168
- b3bd1d2c/?format=json
+UID:656b50c2-80c1-48d5-876a-ee5a9b4e21d5@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-11)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/656b50c2-80c1-48d5-876a-ee5a9b4e21
+ d5/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/656b50c2-80c1-48d5-876a-ee5a
+ 9b4e21d5/?format=json
 STATUS:TENTATIVE
 DTSTART;VALUE=DATE:20291231
 DTEND;VALUE=DATE:20300101
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:NROL-97 当前暂定日期为明天
+DESCRIPTION:Amazon Leo (LF-11) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3c3a73d-e9f1-4022-a884-db88147d54cc@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-09)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/f3c3a73d-e9f1-4022-a884-db88147d54
+ cc/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/f3c3a73d-e9f1-4022-a884-db88
+ 147d54cc/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amazon Leo (LF-09) 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9b9db235-8ffb-4569-b09b-0e852ad231a0@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Amazon Leo (LF-04)（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
@@ -2726,8 +2881,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ae0eb5dc-cd7e-4d1d-9f57-4d28a2ba3611@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜USSF-234（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Cl
@@ -2747,9 +2902,58 @@ DESCRIPTION:USSF-234 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:4651fd8a-43de-4166-bf8f-c168b3bd1d2c@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜NROL-97（暂定）
+LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
+DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Decade\n任务：Classi
+ fied payload for the US National Reconnaissance Office\n发射窗口（UTC）：2029-1
+ 2-31T00:00:00Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space 
+ Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/4651fd8a-43de-4166-bf8
+ f-c168b3bd1d2c/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/4651fd8a-43de-4166-bf8f-c168
+ b3bd1d2c/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:NROL-97 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3930a4f9-1bd4-4f83-8906-70fcda1e31cd@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-10)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/3930a4f9-1bd4-4f83-8906-70fcda1e31
+ cd/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/3930a4f9-1bd4-4f83-8906-70fc
+ da1e31cd/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amazon Leo (LF-10) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:92176037-f390-44ae-9f4e-3f74cc36a99c@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜JSAT-31（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：JSAT
@@ -2778,138 +2982,9 @@ DESCRIPTION:JSAT-31 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:602dd99f-c8da-43cb-b984-424ce57a50de@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-06)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/602dd99f-c8da-43cb-b984-424ce57a50
- de/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/602dd99f-c8da-43cb-b984-424c
- e57a50de/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-06) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f3c3a73d-e9f1-4022-a884-db88147d54cc@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-09)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/f3c3a73d-e9f1-4022-a884-db88147d54
- cc/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/f3c3a73d-e9f1-4022-a884-db88
- 147d54cc/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-09) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fd017b9e-e227-4cb0-b383-ec821dd4a21b@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-186（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Decade\n任务：Classi
- fied US Space Force mission\n发射窗口（UTC）：2029-12-31T00:00:00Z – 2029-12-31
- T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespac
- edevs.com/2.2.0/launch/fd017b9e-e227-4cb0-b383-ec821dd4a21b/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/fd017b9e-e227-4cb0-b383-ec82
- 1dd4a21b/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-186 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:656b50c2-80c1-48d5-876a-ee5a9b4e21d5@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-11)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/656b50c2-80c1-48d5-876a-ee5a9b4e21
- d5/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/656b50c2-80c1-48d5-876a-ee5a
- 9b4e21d5/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-11) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3930a4f9-1bd4-4f83-8906-70fcda1e31cd@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-10)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/3930a4f9-1bd4-4f83-8906-70fcda1e31
- cd/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/3930a4f9-1bd4-4f83-8906-70fc
- da1e31cd/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-10) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:21aaaf10-d26f-40d9-b6b7-5247c634e254@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜NROL-157（暂定）
 LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Cl
@@ -2929,9 +3004,58 @@ DESCRIPTION:NROL-157 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:06281994-19d0-4c0e-8cbe-07ead2525aab@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜Amazon Leo (LF-08)（暂定）
+LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
+ azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
+  satellites in Low Earth Orbit designed to offer broadband internet acce
+ ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
+ ation is planned to be composed of 3\,276 satellites. The satellites are
+  projected to be placed in 98 orbital planes in three orbital layers\, o
+ ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
+ 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
+ ps://ll.thespacedevs.com/2.2.0/launch/06281994-19d0-4c0e-8cbe-07ead2525a
+ ab/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/06281994-19d0-4c0e-8cbe-07ea
+ d2525aab/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amazon Leo (LF-08) 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3d4800c4-3e30-4121-a289-ae4e6bbf18c0@spacex.wpditzy
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
+SUMMARY:🚀 SpaceX｜NROL-96（暂定）
+LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
+DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
+ sified payload for the US National Reconnaissance Office\n发射窗口（UTC）：2029
+ -12-31T00:00:00Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Spac
+ e Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/3d4800c4-3e30-4121-a
+ 289-ae4e6bbf18c0/?format=json
+URL:https://ll.thespacedevs.com/2.2.0/launch/3d4800c4-3e30-4121-a289-ae4e
+ 6bbf18c0/?format=json
+STATUS:TENTATIVE
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:NROL-96 当前暂定日期为明天
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:c277ebf9-3ce3-49d6-b212-2f350a2b89ee@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Amazon Leo (LF-05)（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
@@ -2957,8 +3081,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:17b75859-1630-481b-9985-6eef21dcc9a8@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Starlab（暂定）
 LOCATION:Launch Complex 39A Starship Pad / Kennedy Space Center\, FL\, US
  A
@@ -2979,133 +3103,9 @@ DESCRIPTION:Starlab 当前暂定日期为明天
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:230bfd2b-a9b8-4c27-98ed-03c4ffb5547f@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-07)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/230bfd2b-a9b8-4c27-98ed-03c4ffb554
- 7f/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/230bfd2b-a9b8-4c27-98ed-03c4
- ffb5547f/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-07) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5484b8bc-8149-4f4c-8e2e-2fda40646f8f@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-12)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/5484b8bc-8149-4f4c-8e2e-2fda40646f
- 8f/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/5484b8bc-8149-4f4c-8e2e-2fda
- 40646f8f/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-12) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f3385d65-5081-401e-a543-db7f471fe282@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜USSF-174（暂定）
-LOCATION:Launch Complex 39A / Kennedy Space Center\, FL\, USA
-DESCRIPTION:运载器：Falcon Heavy\n状态：To Be Determined\n时间精度：Decade\n任务：Classi
- fied US Space Force mission\n发射窗口（UTC）：2029-12-31T00:00:00Z – 2029-12-31
- T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：https://ll.thespac
- edevs.com/2.2.0/launch/f3385d65-5081-401e-a543-db7f471fe282/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/f3385d65-5081-401e-a543-db7f
- 471fe282/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:USSF-174 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3d4800c4-3e30-4121-a289-ae4e6bbf18c0@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜NROL-96（暂定）
-LOCATION:Space Launch Complex 4E / Vandenberg SFB\, CA\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Year\n任务：Clas
- sified payload for the US National Reconnaissance Office\n发射窗口（UTC）：2029
- -12-31T00:00:00Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Spac
- e Devs\n详情：https://ll.thespacedevs.com/2.2.0/launch/3d4800c4-3e30-4121-a
- 289-ae4e6bbf18c0/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/3d4800c4-3e30-4121-a289-ae4e
- 6bbf18c0/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:NROL-96 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:06281994-19d0-4c0e-8cbe-07ead2525aab@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
-SUMMARY:🚀 SpaceX｜Amazon Leo (LF-08)（暂定）
-LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
-DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：Decade\n任务：Am
- azon Leo\, formerly known as Project Kuiper\, is a mega constellation of
-  satellites in Low Earth Orbit designed to offer broadband internet acce
- ss managed by Kuiper Systems LLC\, a subsidiary of Amazon. This constell
- ation is planned to be composed of 3\,276 satellites. The satellites are
-  projected to be placed in 98 orbital planes in three orbital layers\, o
- ne at 590 km\, 610 km and 630 km altitude.\n发射窗口（UTC）：2029-12-31T00:00:0
- 0Z – 2029-12-31T00:00:00Z\n数据源：Launch Library 2 / The Space Devs\n详情：htt
- ps://ll.thespacedevs.com/2.2.0/launch/06281994-19d0-4c0e-8cbe-07ead2525a
- ab/?format=json
-URL:https://ll.thespacedevs.com/2.2.0/launch/06281994-19d0-4c0e-8cbe-07ea
- d2525aab/?format=json
-STATUS:TENTATIVE
-DTSTART;VALUE=DATE:20291231
-DTEND;VALUE=DATE:20300101
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Amazon Leo (LF-08) 当前暂定日期为明天
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a5556e79-a01f-48c6-b822-69bbadb4460d@spacex.wpditzy
-DTSTAMP:20260905T235451Z
-LAST-MODIFIED:20260905T235451Z
+DTSTAMP:20260906T044223Z
+LAST-MODIFIED:20260906T044223Z
 SUMMARY:🚀 SpaceX｜Crew-14（暂定）
 LOCATION:Unknown Pad / Cape Canaveral SFS\, FL\, USA
 DESCRIPTION:运载器：Falcon 9 Block 5\n状态：To Be Determined\n时间精度：待定\n任务：SpaceX
