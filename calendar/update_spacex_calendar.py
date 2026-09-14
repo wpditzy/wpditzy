@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 import json
+import socket
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -34,16 +37,43 @@ def fold(line: str, limit: int = 73) -> str:
     return "\r\n".join(parts)
 
 
+def fetch_json(url: str, attempts: int = 4) -> dict:
+    headers = {
+        "User-Agent": "wpditzy-spacex-calendar/1.1",
+        "Accept": "application/json",
+    }
+    last_error: Exception | None = None
+
+    for attempt in range(1, attempts + 1):
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            # Launch Library can occasionally respond slowly from GitHub-hosted
+            # runners. A longer timeout plus retries handles transient failures.
+            with urllib.request.urlopen(req, timeout=60) as response:
+                return json.load(response)
+        except (TimeoutError, socket.timeout, urllib.error.URLError,
+                urllib.error.HTTPError, json.JSONDecodeError) as exc:
+            last_error = exc
+            if attempt == attempts:
+                break
+            delay = 5 * (2 ** (attempt - 1))
+            print(f"Fetch attempt {attempt}/{attempts} failed: {exc}; retrying in {delay}s")
+            time.sleep(delay)
+
+    raise RuntimeError(f"Launch Library request failed after {attempts} attempts: {last_error}")
+
+
 def fetch_launches() -> list[dict]:
     url = API
     results: list[dict] = []
-    headers = {"User-Agent": "wpditzy-spacex-calendar/1.0"}
-    while url:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            payload = json.load(response)
+    pages = 0
+
+    while url and pages < 5:
+        payload = fetch_json(url)
         results.extend(payload.get("results", []))
         url = payload.get("next")
+        pages += 1
+
     # Defensive filter: keep only launches whose launch provider is SpaceX.
     return [
         x for x in results
@@ -90,7 +120,7 @@ def add_event(lines: list[str], launch: dict, stamp: str) -> None:
         desc_parts.append(f"任务：{mission['description']}")
     if launch.get("window_start") and launch.get("window_end"):
         desc_parts.append(f"发射窗口（UTC）：{launch['window_start']} – {launch['window_end']}")
-    desc_parts.append(f"数据源：Launch Library 2 / The Space Devs")
+    desc_parts.append("数据源：Launch Library 2 / The Space Devs")
     source_url = launch.get("url") or "https://www.spacex.com/launches/"
     desc_parts.append(f"详情：{source_url}")
 
@@ -139,7 +169,24 @@ def add_event(lines: list[str], launch: dict, stamp: str) -> None:
 
 
 def main() -> None:
-    launches = fetch_launches()
+    try:
+        launches = fetch_launches()
+    except Exception as exc:
+        # Do not destroy or replace a valid subscription feed just because the
+        # upstream API is temporarily unavailable. Keep the last good calendar
+        # and let the next scheduled run try again.
+        print(f"WARNING: {exc}")
+        if OUT.exists() and OUT.stat().st_size > 0:
+            print(f"Keeping existing calendar unchanged: {OUT}")
+            return
+        raise
+
+    if not launches:
+        print("WARNING: API returned no SpaceX launches; keeping existing calendar")
+        if OUT.exists() and OUT.stat().st_size > 0:
+            return
+        raise RuntimeError("No SpaceX launches returned and no previous calendar exists")
+
     launches.sort(key=lambda x: x.get("net") or "")
     now = datetime.now(timezone.utc)
     stamp = now.strftime("%Y%m%dT%H%M%SZ")
